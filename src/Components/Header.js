@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactFitText from "react-fittext";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Header extends Component {
   render() {
@@ -31,34 +32,22 @@ class Header extends Component {
 
           <ul id="nav" className="nav">
             <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
+              <AnchorLink href="#home">Home</AnchorLink>
             </li>
             <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
+              <AnchorLink href="#about">About</AnchorLink>
             </li>
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
+              <AnchorLink href="#resume">Resume</AnchorLink>
             </li>
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
+              <AnchorLink href="#portfolio">Works</AnchorLink>
             </li>
             <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
+              <AnchorLink href="#testimonials">Testimonials</AnchorLink>
             </li>
             <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
+              <AnchorLink href="#contact">Contact</AnchorLink>
             </li>
           </ul>
         </nav>
@@ -77,9 +66,9 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <AnchorLink href="#about">
             <i className="icon-down-circle"></i>
-          </a>
+          </AnchorLink>
         </p>
       </header>
     );
