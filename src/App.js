@@ -10,7 +10,7 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
-class App extends Component {
+export default class App extends Component {
 
   constructor(props){
     super(props);
@@ -57,5 +57,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
